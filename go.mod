@@ -1,4 +1,4 @@
-module github.com/danielgtaylor/huma/v2
+module github.com/teplinsky-maxim/huma/v2
 
 go 1.22
 
