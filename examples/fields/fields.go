@@ -4,8 +4,8 @@ package fields
 import (
 	"encoding/json"
 
-	"github.com/danielgtaylor/huma/v2"
 	"github.com/danielgtaylor/shorthand/v2"
+	
 )
 
 // FieldSelectTransform is an example of a transform that can use an input

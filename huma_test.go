@@ -22,9 +22,9 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/danielgtaylor/huma/v2"
-	"github.com/danielgtaylor/huma/v2/adapters/humago"
-	"github.com/danielgtaylor/huma/v2/humatest"
+	"github.com/teplinsky-maxim/huma/v2"
+	"github.com/teplinsky-maxim/huma/v2/adapters/humago"
+	"github.com/teplinsky-maxim/huma/v2/humatest"
 )
 
 var NewExampleAdapter = humatest.NewAdapter
@@ -2277,7 +2277,7 @@ Content-Type: text/plain
 								"application/json": {
 									Schema: &huma.Schema{
 										// Using an external schema should not break.
-										// https://github.com/danielgtaylor/huma/issues/703
+										// https://github.com/teplinsky-maxim/huma/issues/703
 										Ref: "http://example.com/schemas/foo.json",
 									},
 								},

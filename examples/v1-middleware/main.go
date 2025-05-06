@@ -7,13 +7,14 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/danielgtaylor/huma/middleware"
-	"github.com/danielgtaylor/huma/v2"
-	"github.com/danielgtaylor/huma/v2/adapters/humachi"
-	"github.com/danielgtaylor/huma/v2/humacli"
+	"github.com/go-chi/chi"
+	"github.com/teplins
+	"github.com/teplinsky-maxim/huma/middleware"
+	"github.com/teplinsky-maxim/huma/v2"
+	"github.com/teplinsky-maxim/huma/v2/adapters/humachi"
 	"github.com/go-chi/chi"
 
-	_ "github.com/danielgtaylor/huma/v2/formats/cbor"
+	_ "github.com/teplinsky-maxim/huma/v2/formats/cbor"
 )
 
 // Options for the CLI.

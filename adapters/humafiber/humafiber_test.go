@@ -5,8 +5,8 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/danielgtaylor/huma/v2"
 	"github.com/gofiber/fiber/v2"
+	"github.com/teplinsky-maxim/huma/v2"
 )
 
 func BenchmarkHumaFiber(b *testing.B) {

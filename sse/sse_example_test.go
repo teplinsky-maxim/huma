@@ -4,9 +4,9 @@ import (
 	"context"
 	"net/http"
 
-	"github.com/danielgtaylor/huma/v2"
-	"github.com/danielgtaylor/huma/v2/adapters/humago"
-	"github.com/danielgtaylor/huma/v2/sse"
+	"github.com/teplinsky-maxim/huma/v2"
+	"github.com/teplinsky-maxim/huma/v2/adapters/humago"
+	"github.com/teplinsky-maxim/huma/v2/sse"
 )
 
 func ExampleRegister_sse() {

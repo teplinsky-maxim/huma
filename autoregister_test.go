@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/danielgtaylor/huma/v2"
+	"github.com/teplinsky-maxim/huma/v2"
 )
 
 // Item represents a single item with a unique ID.

@@ -15,7 +15,7 @@ import (
 	"unicode/utf8"
 	"unsafe"
 
-	"github.com/danielgtaylor/huma/v2/validation"
+	"github.com/teplinsky-maxim/huma/v2/validation"
 )
 
 // ValidateMode describes the direction of validation (server -> client or

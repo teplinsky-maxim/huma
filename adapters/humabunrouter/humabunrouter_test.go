@@ -16,7 +16,7 @@ import (
 
 	"github.com/uptrace/bunrouter"
 
-	"github.com/danielgtaylor/huma/v2"
+	"github.com/teplinsky-maxim/huma/v2"
 )
 
 var lastModified = time.Now()

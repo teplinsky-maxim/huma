@@ -14,11 +14,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/danielgtaylor/huma/v2"
-	"github.com/danielgtaylor/huma/v2/adapters/humafiber"
 	"github.com/gofiber/fiber/v2"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
+	"github.com/teplinsky-maxim/huma/v2"
+	"github.com/teplinsky-maxim/huma/v2/adapters/humafiber"
 )
 
 type (

@@ -9,9 +9,9 @@ import (
 	"net/url"
 	"time"
 
-	"github.com/danielgtaylor/huma/v2"
-	"github.com/danielgtaylor/huma/v2/queryparam"
 	"github.com/gorilla/mux"
+	"github.com/teplinsky-maxim/huma/v2"
+	"github.com/teplinsky-maxim/huma/v2/queryparam"
 )
 
 // MultipartMaxMemory is the maximum memory to use when parsing multipart

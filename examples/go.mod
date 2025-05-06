@@ -8,7 +8,7 @@ replace github.com/danielgtaylor/huma/v2 => ../
 
 require (
 	github.com/danielgtaylor/huma v1.14.2
-	github.com/danielgtaylor/huma/v2 v2.0.0-00010101000000-000000000000
+	github.com/danielgtaylor/huma/v2 v2.32.0
 	github.com/danielgtaylor/shorthand/v2 v2.2.0
 	github.com/gin-gonic/gin v1.10.0
 	github.com/go-chi/chi v4.1.2+incompatible

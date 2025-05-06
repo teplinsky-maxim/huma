@@ -6,9 +6,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/danielgtaylor/huma/v2/humatest"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
+	"github.com/teplinsky-maxim/huma/v2/humatest"
 )
 
 func TestHasConditional(t *testing.T) {

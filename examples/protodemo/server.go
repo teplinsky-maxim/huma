@@ -6,9 +6,10 @@ import (
 	"net/http"
 	"reflect"
 
-	"github.com/danielgtaylor/huma/v2"
-	"github.com/danielgtaylor/huma/v2/adapters/humachi"
-	"github.com/danielgtaylor/huma/v2/examples/protodemo/protodemo"
+	"github.com/go-chi/chi/v5"
+	"github.
+	"github.com/teplinsky-maxim/huma/v2"
+	"github.com/teplinsky-maxim/huma/v2/adapters/humachi"
 	"github.com/go-chi/chi/v5"
 	"google.golang.org/protobuf/encoding/protojson"
 	"google.golang.org/protobuf/proto"

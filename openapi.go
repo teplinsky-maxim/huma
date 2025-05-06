@@ -7,7 +7,7 @@ import (
 	"reflect"
 	"time"
 
-	"github.com/danielgtaylor/huma/v2/yaml"
+	"github.com/teplinsky-maxim/huma/v2/yaml"
 )
 
 type omitType int

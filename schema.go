@@ -16,7 +16,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/danielgtaylor/huma/v2/validation"
+	"github.com/teplinsky-maxim/huma/v2/validation"
 )
 
 // ErrSchemaInvalid is sent when there is a problem building the schema.

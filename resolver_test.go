@@ -9,7 +9,7 @@ import (
 	"net/http/httptest"
 	"strings"
 
-	"github.com/danielgtaylor/huma/v2"
+	"github.com/teplinsky-maxim/huma/v2"
 )
 
 // Step 1: Create your input struct where you want to do additional validation.

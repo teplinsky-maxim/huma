@@ -13,13 +13,15 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/danielgtaylor/huma/v2"
-	"github.com/danielgtaylor/huma/v2/adapters/humachi"
-	"github.com/danielgtaylor/huma/v2/humacli"
+	"github.com/go-chi/chi/v5"
+	"github.com/spf13/cobra"
+	"github.com/teplinsky-maxim/huma/v2"
+
+	"github.com/teplinsky-maxim/huma/v2"
 	"github.com/go-chi/chi/v5"
 	"github.com/spf13/cobra"
 
-	_ "github.com/danielgtaylor/huma/v2/formats/cbor"
+	_ "github.com/teplinsky-maxim/huma/v2/formats/cbor"
 )
 
 // Options for the CLI.

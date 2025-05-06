@@ -5,9 +5,9 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/danielgtaylor/huma/v2"
-	"github.com/danielgtaylor/huma/v2/humatest"
 	"github.com/stretchr/testify/assert"
+	"github.com/teplinsky-maxim/huma/v2"
+	"github.com/teplinsky-maxim/huma/v2/humatest"
 )
 
 func TestBlankConfig(t *testing.T) {

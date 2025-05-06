@@ -8,8 +8,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/danielgtaylor/huma/v2"
 	"github.com/gin-gonic/gin"
+	"github.com/teplinsky-maxim/huma/v2"
 )
 
 var lastModified = time.Now()

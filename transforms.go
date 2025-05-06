@@ -133,7 +133,7 @@ func (t *SchemaLinkTransformer) OnAddOperation(oapi *OpenAPI, op *Operation) {
 					if r := recover(); r != nil {
 						// Catch some scenarios that just aren't supported in Go at the
 						// moment. Logs an error so people know what's going on.
-						// https://github.com/danielgtaylor/huma/issues/371
+						// https://github.com/teplinsky-maxim/huma/issues/371
 						fmt.Fprintln(os.Stderr, "Warning: unable to create schema link for type", typ, ":", r)
 					}
 				}()

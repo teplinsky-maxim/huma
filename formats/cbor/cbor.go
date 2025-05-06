@@ -5,8 +5,8 @@ package cbor
 import (
 	"io"
 
-	"github.com/danielgtaylor/huma/v2"
 	"github.com/fxamacker/cbor/v2"
+	
 )
 
 var cborEncMode, _ = cbor.EncOptions{

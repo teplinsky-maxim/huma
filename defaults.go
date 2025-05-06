@@ -28,7 +28,7 @@ var DefaultJSONFormat = Format{
 // function and can be modified to add or remove additional formats. For
 // example, to add support for CBOR, simply import it:
 //
-//	import _ "github.com/danielgtaylor/huma/v2/formats/cbor"
+//	import _ "github.com/teplinsky-maxim/huma/v2/formats/cbor"
 var DefaultFormats = map[string]Format{
 	"application/json": DefaultJSONFormat,
 	"json":             DefaultJSONFormat,
@@ -51,7 +51,7 @@ var DefaultFormats = map[string]Format{
 // If desired, CBOR (a binary format similar to JSON) support can be
 // automatically enabled by importing the CBOR package:
 //
-//	import _ "github.com/danielgtaylor/huma/v2/formats/cbor"
+//	import _ "github.com/teplinsky-maxim/huma/v2/formats/cbor"
 func DefaultConfig(title, version string) Config {
 	schemaPrefix := "#/components/schemas/"
 	schemasPath := "/schemas"

@@ -16,7 +16,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/danielgtaylor/huma/v2"
+	"github.com/teplinsky-maxim/huma/v2"
 )
 
 // trimETag removes the quotes and `W/` prefix for incoming ETag values to
