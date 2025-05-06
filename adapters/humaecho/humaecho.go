@@ -11,7 +11,8 @@ import (
 	"time"
 
 	"github.com/labstack/echo/v4"
-	
+
+	"github.com/teplinsky-maxim/huma/v2"
 )
 
 // MultipartMaxMemory is the maximum memory to use when parsing multipart

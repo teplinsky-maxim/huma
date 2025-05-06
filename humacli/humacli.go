@@ -13,7 +13,8 @@ import (
 	"time"
 
 	"github.com/spf13/cobra"
-	
+
+	"github.com/teplinsky-maxim/huma/v2/casing"
 )
 
 func deref(t reflect.Type) reflect.Type {

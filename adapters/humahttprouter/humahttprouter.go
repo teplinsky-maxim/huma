@@ -10,7 +10,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/julienschmidt/httprouter
+	"github.com/julienschmidt/httprouter"
+
 	"github.com/teplinsky-maxim/huma/v2"
 	"github.com/teplinsky-maxim/huma/v2/queryparam"
 )

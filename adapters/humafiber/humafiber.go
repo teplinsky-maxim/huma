@@ -12,7 +12,8 @@ import (
 	"time"
 
 	"github.com/gofiber/fiber/v2"
-	
+
+	"github.com/teplinsky-maxim/huma/v2"
 )
 
 // Unwrap extracts the underlying Fiber context from a Huma context. If passed a

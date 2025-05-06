@@ -10,9 +10,9 @@ import (
 	"time"
 
 	"github.com/go-chi/chi/v5"
-	"github.
+
 	"github.com/teplinsky-maxim/huma/v2"
-	"github.com/go-chi/chi/v5"
+	"github.com/teplinsky-maxim/huma/v2/queryparam"
 )
 
 // MultipartMaxMemory is the maximum memory to use when parsing multipart

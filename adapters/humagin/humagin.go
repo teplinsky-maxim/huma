@@ -11,7 +11,8 @@ import (
 	"time"
 
 	"github.com/gin-gonic/gin"
-	
+
+	"github.com/teplinsky-maxim/huma/v2"
 )
 
 // MultipartMaxMemory is the maximum memory to use when parsing multipart

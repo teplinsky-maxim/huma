@@ -6,7 +6,8 @@ import (
 	"io"
 
 	"github.com/fxamacker/cbor/v2"
-	
+
+	"github.com/teplinsky-maxim/huma/v2"
 )
 
 var cborEncMode, _ = cbor.EncOptions{

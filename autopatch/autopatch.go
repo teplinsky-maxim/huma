@@ -20,7 +20,9 @@ import (
 
 	"github.com/danielgtaylor/shorthand/v2"
 	jsonpatch "github.com/evanphx/json-patch/v5"
-	"
+
+	"github.com/teplinsky-maxim/huma/v2"
+	"github.com/teplinsky-maxim/huma/v2/casing"
 )
 
 // jsonPatchOp describes an RFC 6902 JSON Patch operation. See also:
